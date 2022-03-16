@@ -9,8 +9,8 @@ include_once( "./xlsx/xlsx.writer.php" );
 include_once( "./headers.writer.php" );
 ```
 
-PHP_XLSXWriter
-==============
+PHP_CSV_XLSX_WRITTER
+====================
 
 This library is designed to be lightweight, and have minimal memory usage.
 
@@ -32,9 +32,9 @@ $data = array(
     array('2003','2','153.5'),
 );
 
-$writer = new XLSXWriter();
-$writer->writeSheet($data);
-$writer->writeToFile('output.xlsx');
+$writer = new XLSX_Writer();
+$writer->addLines($data);
+$writer->writeToFile( 'output.xlsx') ;
 ```
 
 # For CSV Files
