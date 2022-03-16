@@ -1,9 +1,10 @@
 # PHP_XLSX_CSV_WRITER
 a php script to writte xlsx and csv file
 
-#Import CSV and XLSX writter
+# Import CSV and XLSX writter
 
 ```php
+//imports writees
 include_once( "./csv/csv.writer.php" );
 include_once( "./xlsx/xlsx.writer.php" );
 include_once( "./headers.writer.php" );
@@ -20,9 +21,9 @@ It is designed to output an Excel compatible spreadsheet in (Office 2007+) xlsx 
 * multiple worksheets
 * supports currency/date/numeric cell formatting, simple formulas
 * supports basic cell styling
-* supports writing huge 100K+ row spreadsheets
+* csv files
 
-[Never run out of memory with PHPExcel again](https://github.com/pertinent23/PHP_XLSX_CSV_WRITER).
+[Writte your csv and xlsx files](https://github.com/pertinent23/PHP_XLSX_CSV_WRITER).
 
 Simple PHP CLI example:
 ```php
